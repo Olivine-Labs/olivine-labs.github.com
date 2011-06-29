@@ -101,7 +101,7 @@ header h1 { background: url(../img/logo.png) top left no-repeat transparent; hei
 header h2 { color: #149c68; font-size: 22pt; margin-top: 1em; }
 section h1 { color: #149c68; font-size: 30pt; line-height: 1em; }
 #topBar { background-color: #38c958; text-align: right; padding: 10px; color: #fff; }
-.latestPosts { padding-right: 20px; background: url(../img/smallcircles.png) left center no-repeat transparent; }
+.latestPosts { padding: 0 20px 0 35px; background: url(../img/smallcircles.png) left center no-repeat transparent; }
 .latestPosts a { color: #fff; }
 
 #siteHeading, #main, nav, footer p { width: 960px; margin: auto; }
