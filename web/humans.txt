@@ -1,0 +1,17 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Developer: Jack Lawson for Olivine Labs
+  Site: www.olivinelabs.com
+  Twitter: @ajacksified
+  Location: San Francisco, CA
+
+/* THANKS */
+  HTML5 Boilerplate: http://html5boilerplate.com/
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: html5 shiv
+  Software: vim
