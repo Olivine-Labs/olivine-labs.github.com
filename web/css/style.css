@@ -82,14 +82,6 @@ h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 a, a:active, a:visited { color: #607890; }
 a:hover { color: #036; }
 
-/*
-    // ========================================== \\
-   ||                                              ||
-   ||               Your styles !                  ||
-   ||                                              ||
-    \\ ========================================== //
-*/
-
 body { font-family: 'News Cycle', Helvetica, Verdana, Arial, sans-serif; font-size: 13pt; }
 p { margin-bottom: 1em; }
 footer { background: #383939; color: #fff; text-align: right; padding: 10px 0; margin-top: 4em; }
@@ -103,12 +95,13 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400; letter-spacing: 1px; }
 
 nav ul { float: right; margin: 10px 40px 0 0; }
 nav li { display: inline-block; margin-left: 20px; font-size: 14pt;  }
+.ie7 nav li, .ie6 nav li { display: inline; }
 
 header h1 { background: url(../img/logo.png) top left no-repeat transparent; height: 117px; width: 618px; margin-top: 20px; text-indent: -9999px;}
 header h2 { color: #149c68; font-size: 22pt; margin-top: 1em; }
 section h1 { color: #149c68; font-size: 30pt; line-height: 1em; }
 #topBar { background-color: #38c958; text-align: right; padding: 10px; color: #fff; }
-.latestPosts { padding: 10px 20px 10px 35px; background: url(../img/smallcircles.png) left center no-repeat transparent; }
+.latestPosts { padding-right: 20px; background: url(../img/smallcircles.png) left center no-repeat transparent; }
 .latestPosts a { color: #fff; }
 
 #siteHeading, #main, nav, footer p { width: 960px; margin: auto; }
@@ -131,7 +124,41 @@ section h1 { color: #149c68; font-size: 30pt; line-height: 1em; }
 .team .skills { font-size: 12pt; }
 .team .links { display: block; }
 
+.cssanimations .circles{
+  display: inline-block;
+  height: 29px;
+  width: 26px;
+  margin-right: 10px;
+  background: url(../img/smallcircles.png) center center no-repeat transparent;
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 20s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
 
+.cssanimations .latestPosts { padding-left: 0; background: transparent; }
+
+@-moz-keyframes rotate {
+  from {  
+    -moz-transform: rotate(0deg);  
+  }  
+  to {  
+    -moz-transform: rotate(360deg);  
+  }  
+}
+ 
+@-webkit-keyframes rotate {  
+  from {  
+    -webkit-transform: rotate(0deg);  
+  }  
+  to {  
+    -webkit-transform: rotate(360deg);  
+  }  
+}  
 
 
 .ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }

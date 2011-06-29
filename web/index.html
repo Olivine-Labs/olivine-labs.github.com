@@ -16,7 +16,9 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="js/libs/modernizr.js"></script>
 	
 	<link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -30,6 +32,7 @@
 <body>
 	<div id="container">
     <div id="topBar" role="complementary">
+      <span class="circles"></span>
       <span class="latestPosts">Latest Post: <a href="http://blog.olivinelabs.com/2011/06/permission-denied-to-access-property-object-easy-fix/">Permission denied to access property object : Easy Fix</a></span>
     </div>
 
@@ -39,7 +42,7 @@
         <li><a href="mailto:projects@olivinelabs.com">contact</a></li>
         <li><a href="http://blog.olivinelabs.com">blog</a></li>
         <li><a href="http://github.com/Olivine-Labs">github</a></li>
-      </u>
+      </ul>
     </nav>
  
     <header id="siteHeading">
@@ -124,16 +127,16 @@
     </footer>
 	</div>
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
-	<script src="js/plugins.js"></script>
-	<script src="js/script.js"></script>
+	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>-->
+  <!--<script src="js/plugins.js"></script>-->
+  <!--<script src="js/script.js"></script>-->
 	<!--[if lt IE 7 ]>
 	<script src="js/libs/dd_belatedpng.js"></script>
 	<script> DD_belatedPNG.fix('img, .png_bg');</script>
 	<![endif]-->
 	<script>
-		var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
+		var _gaq=[['_setAccount','UA-22050912-1'],['_trackPageview']]; 
 		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
 		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 		s.parentNode.insertBefore(g,s)}(document,'script'));
