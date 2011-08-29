@@ -1,32 +1,98 @@
 <!doctype html>
-<title>Page Not Found</title>
-<style>
-  body { text-align: center;}
-  h1 { font-size: 50px; text-align: center }
-  span[frown] { transform: rotate(90deg); display:inline-block; color: #bbb; }
-  body { font: 20px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999; text-shadow: 2px 2px 2px rgba(200, 200, 200, 0.5); }
-  ::-moz-selection{ background:#FF5E99; color:#fff; }
-  ::selection { background:#FF5E99; color:#fff; } 
-  article {display:block; text-align: left; width: 500px; margin: 0 auto; }
-  
-  a { color: rgb(36, 109, 56); text-decoration:none; }
-  a:hover { color: rgb(96, 73, 141) ; text-shadow: 2px 2px 2px rgba(36, 109, 56, 0.5); }
-</style>
-
-<article>
-   <h1>Not found <span frown>:(</span></h1>
-   <div>
-       <p>Sorry, but the page you were trying to view does not exist.</p>
-       <p>It looks like this was the result of either:</p>
-       <ul>
-           <li>a mistyped address</li>
-           <li>an out-of-date link</li>
-       </ul>
-   </div>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <title>Olivine Labs : Leading Edge Web Applications</title>
+    <meta name="description" content="Olivine Labs is a company specializing in high-performance, scalable, userfriendly modern web application development.">
+    <meta name="author" content="Jack Lawson, <jlawson@olivinelabs.com>">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link href='http://fonts.googleapis.com/css?family=News+Cycle&v2' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="handheld" href="css/handheld.css">
+    <script src="js/libs/modernizr.js"></script>
+  <body>
+    <div id="container">
+      <div id="topBar" role="complementary">
+        <span class="circles"></span>
+        <span class="latestPosts">Latest Post: <a href="http://blog.olivinelabs.com/2011/08/neflaria-update-age-of-the-x/">Neflaria Update: Age of the X</a> (8/10/11)</span>
+      </div>
+
+      <nav role="navigation">
+        <ul>
+          <li><a href="/">home</a></li>
+          <li><a href="mailto:projects@olivinelabs.com">contact</a></li>
+          <li><a href="http://blog.olivinelabs.com">blog</a></li>
+          <li><a href="http://github.com/Olivine-Labs">github</a></li>
+        </ul>
+      </nav>
+   
+      <header id="siteHeading">
+        <h1 role="banner">Olivine Labs</h1>
+        <h2>We build leading-edge web applications using leading-edge technology.</h2>
+      </header>
+
+      <div id="main" role="main">
+        <article>
+          <h1>The requested URL was not found on this server.</h1>
+          
+          <div class="extraInfo">
+            <div class="heading">
+              <div>
+                <p>Sorry, but the page you were trying to view does not exist.</p>
+                <p>It looks like this was the result of either:</p>
+                <ul>
+                  <li>a mistyped address</li>
+                  <li>an out-of-date link</li>
+                </ul>
+
+                <p>
+                  (Were you looking for <a href="https://github.com/Olivine-Labs/Alchemy-Websockets">Alchemy Websockets</a>?)
+                </p>
+              </div>
+            </div>
+            
+            <div class="content">
+              <script>
+                var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),
+                  GOOG_FIXURL_SITE = location.host;
+              </script>
+              <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <footer>
+        <p>
+          &copy; 2011 Olivine Labs, LLC. 
+          <a href="mailto:projects@olivinelabs.com">Contact</a> - 
+          <a href="http://blog.olivinelabs.com">Blog</a> - 
+          <a href="http://www.github.com/Olivine-Labs">GitHub</a> -
+          palette from <a href="http://www.colourlovers.com/palette/1076567/lilliputans" target="_blank">Zalera88</a> @ <a href="http://www.colourlovers.com" target="_blank">colourlovers</a>
+        </p>    
+      </footer>
+    </div>
+
     <script>
-    var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),
-        GOOG_FIXURL_SITE = location.host;
+      var _gaq=[['_setAccount','UA-22050912-1'],['_trackPageview']]; 
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
-    <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
-</article>
+  </body>
+  <!-- aws -->
+</html>

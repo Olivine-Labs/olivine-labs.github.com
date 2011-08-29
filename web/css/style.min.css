@@ -57,7 +57,7 @@ nav li{display:inline-block;margin-left:20px;font-size:14pt;}
 .ie7 nav li, .ie6 nav li{display:inline;}
 header h1{background:url(../img/logo.png) top left no-repeat transparent;height:117px;width:618px;margin-top:20px;text-indent:-9999px;}
 header h2{color:#149c68;font-size:22pt;margin-top:1em;}
-section h1{color:#149c68;font-size:30pt;line-height:1em;}
+section h1, article h1{color:#149c68;font-size:30pt;line-height:1em;}
 #topBar{background-color:#38c958;text-align:right;padding:10px;color:#fff;}
 .latestPosts{padding:0 20px 0 35px;background:url(../img/smallcircles.png) left center no-repeat transparent;}
 .latestPosts a{color:#fff;}
