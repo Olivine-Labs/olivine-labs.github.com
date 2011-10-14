@@ -1,7 +1,17 @@
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display:block;}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section{display:block;}
 blockquote, q{quotes:none;}
-blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;}
+blockquote:before, blockquote:after,
+q:before, q:after{content:'';content:none;}
 ins{background-color:#ff9;color:#000;text-decoration:none;}
 mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}
 del{text-decoration:line-through;}
@@ -45,7 +55,7 @@ h1, h2, h3, h4, h5, h6{font-weight:bold;}
 a, a:active, a:visited{color:#607890;}
 a:hover{color:#036;}
 body{font-family:'News Cycle', Helvetica, Verdana, Arial, sans-serif;font-size:13pt;}
-p{margin-bottom:1em;}
+p,ul{margin-bottom:1em;}
 footer{background:#383939;color:#fff;text-align:right;padding:10px 0;margin-top:4em;}
 a{text-decoration:none;color:#149c68;}
 a:active{border-bottom:dotted 1px #149c68;}
@@ -58,16 +68,19 @@ nav li{display:inline-block;margin-left:20px;font-size:14pt;}
 header h1{background:url(../img/logo.png) top left no-repeat transparent;height:117px;width:618px;margin-top:20px;text-indent:-9999px;}
 header h2{color:#149c68;font-size:22pt;margin-top:1em;}
 section h1, article h1{color:#149c68;font-size:30pt;line-height:1em;}
+article{margin:1em 0;}
+article h1{margin-bottom:.5em;}
+article h2, article h3{margin-top:.5em;}
 #topBar{background-color:#38c958;text-align:right;padding:10px;color:#fff;}
-.latestPosts{padding:0 20px 0 35px;background:url(../img/smallcircles.png) left center no-repeat transparent;}
+.latestPosts{padding:5px 20px 5px 35px;background:url(../img/smallcircles.png) left center no-repeat transparent;}
 .latestPosts a{color:#fff;}
 #siteHeading, #main, nav, footer p{width:960px;margin:auto;}
-#projects{width:980px;background:#383939;color:#fff;margin:3em auto;overflow:auto;}
-#projects a, footer a{color:#aee637;margin-top:1em;}
-.projectInfo{width:480px;margin:10px;float:left;}
-.projectDescription{margin:10px 10px 10px 0;}
-#projects h1{font-size:22pt;}
-#projects h2{font-size:30pt;margin-bottom:.5em;}
+.extraInfo{width:980px;background:#383939;color:#fff;margin:3em auto;overflow:auto;}
+.extraInfo a, footer a{color:#aee637;margin-top:1em;}
+.extraInfo .heading{width:480px;margin:10px;float:left;}
+.extraInfo .content{margin:10px 10px 10px 0;}
+.extraInfo h1{font-size:22pt;}
+.extraInfo h2{font-size:30pt;margin-bottom:.5em;}
 .col_50{width:470px;margin:0 10px;float:left;}
 .first{margin-left:0;}
 .last{margin-right:0;}
@@ -77,6 +90,9 @@ section h1, article h1{color:#149c68;font-size:30pt;line-height:1em;}
 .team .name{font-size:14pt;}
 .team .skills{font-size:12pt;}
 .team .links{display:block;}
+blockquote{background:#f9f9f9;border-left:10px solid #ccc;margin:1.5em 10px;padding:.5em 10px;quotes:"\201C""\201D""\2018""\2019";}
+blockquote:before{color:#ccc;content:open-quote;font-size:4em;line-height:.1em;margin-right:.25em;vertical-align:-.4em;}
+blockquote p{display:inline;}
 .cssanimations .circles{display:inline-block;height:29px;width:26px;margin-right:10px;background:url(../img/smallcircles.png) center center no-repeat transparent;-moz-animation-name:rotate;-moz-animation-duration:20s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:linear;-webkit-animation-name:rotate;-webkit-animation-duration:20s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:linear;}
 .cssanimations .latestPosts{padding-left:0;background:transparent;}
 @-moz-keyframes rotate{from{-moz-transform:rotate(0deg);}
@@ -88,7 +104,8 @@ to{-webkit-transform:rotate(360deg);}
 .ir{display:block;text-indent:-999em;overflow:hidden;background-repeat:no-repeat;text-align:left;direction:ltr;}
 .hidden{display:none;visibility:hidden;}
 .visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;}
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto;}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto;}
 .invisible{visibility:hidden;}
 .clearfix:before, .clearfix:after{content:"\0020";display:block;height:0;overflow:hidden;}
 .clearfix:after{clear:both;}
@@ -108,3 +125,4 @@ tr, img{page-break-inside:avoid;}
 p, h2, h3{orphans:3;widows:3;}
 h2, h3{page-break-after:avoid;}
 }
+
