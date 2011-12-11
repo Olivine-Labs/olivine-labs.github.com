@@ -82,14 +82,14 @@ h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 a, a:active, a:visited { color: #607890; }
 a:hover { color: #036; }
 
-body { font-family: 'News Cycle', Helvetica, Verdana, Arial, sans-serif; font-size: 13pt; }
+body { font-family: 'Cabin Condensed', Helvetica, Verdana, Arial, sans-serif; font-size: 13pt; background: #111 url(../img/black-Linen.png); color: #eee; }
 p,ul { margin-bottom: 1em; }
-footer { background: #383939; color: #fff; text-align: right; padding: 10px 0; margin-top: 4em; }
+footer { background: #111; background: rgba(255,255,255,.1); color: #fff; text-align: right; padding: 10px 0; margin-top: 4em; }
 
 a { text-decoration: none; color: #149c68; }
 a:active { border-bottom: dotted 1px #149c68; }
-a:visited { color: #38c958; }
-a:hover { color: #383939; }
+a:visited { color: #149c68; }
+a:hover { color: #888; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 400; letter-spacing: 1px; }
 
@@ -97,23 +97,22 @@ nav ul { float: right; margin: 10px 40px 0 0; }
 nav li { display: inline-block; margin-left: 20px; font-size: 14pt;  }
 .ie7 nav li, .ie6 nav li { display: inline; }
 
-header h1 { background: url(../img/logo.png) top left no-repeat transparent; height: 117px; width: 618px; margin-top: 20px; text-indent: -9999px;}
+header h1 { background: url(../img/logo.png) top left no-repeat transparent; height: 200px; width: 307px; margin-top: 20px; text-indent: -9999px;}
 header h2 { color: #149c68; font-size: 22pt; margin-top: 1em; }
-section h1, article h1 { color: #149c68; font-size: 30pt; line-height: 1em; }
+section h1, article h1, aside h1 { color: #149c68; font-size: 30pt; line-height: 1em; }
 
 article { margin: 1em 0; }
 article h1 { margin-bottom: .5em; }
-article h2, article h3 { margin-top: .5em; }
 #topBar { background-color: #38c958; text-align: right; padding: 10px; color: #fff; }
 .latestPosts { padding: 5px 20px 5px 35px; background: url(../img/smallcircles.png) left center no-repeat transparent; }
 .latestPosts a { color: #fff; }
 
-#siteHeading, #main, nav, footer p { width: 960px; margin: auto; }
+#siteHeading, #main, nav, footer p, aside { width: 960px; margin: auto; }
 
-.extraInfo { width: 980px; background: #383939; color: #fff; margin: 3em auto; overflow: auto; }
+aside { margin: 3em auto }
+.extraInfo { width: 310px; margin-right: 10px; float: left; border-top: solid 1px #383939; border-bottom: solid 1px #383939; color: #fff;; overflow: auto; background: #111; background: rgba(255,255,255,.1); }
 .extraInfo a, footer a { color: #aee637; margin-top: 1em; }
-.extraInfo .heading { width: 480px; margin: 10px; float: left; }
-.extraInfo .content { margin: 10px 10px 10px 0; }
+.extraInfo .content, .extraInfo .heading { margin: .5em; }
 .extraInfo h1 { font-size: 22pt; }
 .extraInfo h2 { font-size: 30pt; margin-bottom: .5em; }
 
@@ -129,7 +128,8 @@ article h2, article h3 { margin-top: .5em; }
 .team .links { display: block; }
 
 blockquote {
-background:#f9f9f9;
+background: #111;
+background: rgba(255,255,255,.1);
 border-left:10px solid #ccc;
 margin:1.5em 10px;
 padding:.5em 10px;
