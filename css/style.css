@@ -93,12 +93,12 @@ a:hover { color: #888; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 400; letter-spacing: 1px; }
 
-nav ul { float: right; margin: 10px 40px 0 0; }
+nav ul { float: right; margin: 22px 40px 0 0; }
 nav li { display: inline-block; margin-left: 20px; font-size: 14pt;  }
 .ie7 nav li, .ie6 nav li { display: inline; }
 
 header h1 { background: url(../img/logo.png) top left no-repeat transparent; height: 200px; width: 307px; margin-top: 20px; text-indent: -9999px;}
-header h2 { color: #149c68; font-size: 22pt; margin-top: 1em; }
+header h2 { color: #149c68; font-size: 10pt; margin-top: 1em; }
 section h1, article h1, aside h1 { color: #149c68; font-size: 30pt; line-height: 1em; }
 
 article { margin: 1em 0; }
@@ -113,8 +113,14 @@ aside { margin: 3em auto }
 .extraInfo { width: 310px; margin-right: 10px; float: left; border-top: solid 1px #383939; border-bottom: solid 1px #383939; color: #fff;; overflow: auto; background: #111; background: rgba(255,255,255,.1); }
 .extraInfo a, footer a { color: #aee637; margin-top: 1em; }
 .extraInfo .content, .extraInfo .heading { margin: .5em; }
-.extraInfo h1 { font-size: 22pt; }
-.extraInfo h2 { font-size: 30pt; margin-bottom: .5em; }
+.extraInfo h1 { font-size: 26pt; }
+.extraInfo h2 { font-size: 24pt; margin-bottom: .5em; }
+
+.fullWidth { width: 940px; padding-top: 10px; padding-left: 10px; float: left; border-top: solid 1px #383939; border-bottom: solid 1px #383939; color: #fff;; overflow: auto; background: #111; background: rgba(255,255,255,.1); }
+.fullWidth a, footer a { color: #aee637; margin-top: 1em; }
+.fullWidth .content, .extraInfo .heading { margin: .5em; }
+.fullWidth h1 { font-size: 26pt; }
+.fullWidth h2 { font-size: 24pt; margin-bottom: .5em; }
 
 .col_50 { width: 470px; margin: 0 10px; float: left; }
 .first { margin-left: 0; }
