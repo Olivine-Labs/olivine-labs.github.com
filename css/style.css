@@ -116,7 +116,7 @@ aside { margin: 3em auto }
 .extraInfo h1 { font-size: 26pt; }
 .extraInfo h2 { font-size: 24pt; margin-bottom: .5em; }
 
-.fullWidth { width: 940px; padding-top: 10px; padding-left: 10px; float: left; border-top: solid 1px #383939; border-bottom: solid 1px #383939; color: #fff;; overflow: auto; background: #111; background: rgba(255,255,255,.1); }
+.fullWidth { width: 930px; padding-top: 10px; padding-left: 10px; float: left; border-top: solid 1px #383939; border-bottom: solid 1px #383939; color: #fff;; overflow: auto; background: #111; background: rgba(255,255,255,.1); }
 .fullWidth a, footer a { color: #aee637; margin-top: 1em; }
 .fullWidth .content, .extraInfo .heading { margin: .5em; }
 .fullWidth h1 { font-size: 26pt; }
